@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Knowledge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Tree Knowledge</div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for a tree..." onkeyup="searchTree()">
+        </div>
+    </header>
+
+    <main>
+        <section class="tree-list">
+            <h1>Explore Tree Species</h1>
+            <div class="trees">
+                <!-- Tree Cards -->
+                <div class="tree-card" data-name="Oak Tree">
+                    <img src="oak.jpg" alt="Oak Tree">
+                    <h2>Oak Tree</h2>
+                    <p><strong>Features:</strong></p>
+                    <ul>
+                        <li>Deciduous tree</li>
+                        <li>Grows up to 100 feet tall</li>
+                        <li>Produces acorns</li>
+                        <li>Found in temperate regions</li>
+                    </ul>
+                    <a href="#oak" class="btn">Learn More</a>
+                </div>
+
+                <div class="tree-card" data-name="Maple Tree">
+                    <img src="maple.jpg" alt="Maple Tree">
+                    <h2>Maple Tree</h2>
+                    <p><strong>Features:</strong></p>
+                    <ul>
+                        <li>Famous for maple syrup</li>
+                        <li>Leaves turn red in autumn</li>
+                        <li>Grows up to 80 feet tall</li>
+                        <li>Found in North America</li>
+                    </ul>
+                    <a href="#maple" class="btn">Learn More</a>
+                </div>
+
+                <div class="tree-card" data-name="Birch Tree">
+                    <img src="birch.jpg" alt="Birch Tree">
+                    <h2>Birch Tree</h2>
+                    <p><strong>Features:</strong></p>
+                    <ul>
+                        <li>White bark</li>
+                        <li>Grows up to 70 feet tall</li>
+                        <li>Found in cold climates</li>
+                        <li>Used for furniture</li>
+                    </ul>
+                    <a href="#birch" class="btn">Learn More</a>
+                </div>
+
+        <!-- Pine Tree -->
+        <div class="tree-card" data-name="Pine Tree">
+            <img src="pine.jpg" alt="Pine Tree">
+            <h2>Pine Tree</h2>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li>Evergreen coniferous tree</li>
+                <li>Grows up to 150 feet tall</li>
+                <li>Produces pine cones</li>
+                <li>Found in cold climates</li>
+                <li>Used for timber and resin</li>
+            </ul>
+            <a href="#pine" class="btn">Learn More</a>
+        </div>
+
+        <!-- Cherry Blossom Tree -->
+        <div class="tree-card" data-name="Cherry Blossom Tree">
+            <img src="cherry-blossom.jpg" alt="Cherry Blossom Tree">
+            <h2>Cherry Blossom Tree</h2>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li>Famous for its pink flowers</li>
+                <li>Grows up to 40 feet tall</li>
+                <li>Native to Japan</li>
+                <li>Blooms in spring</li>
+                <li>Symbolizes renewal and beauty</li>
+            </ul>
+            <a href="#cherry-blossom" class="btn">Learn More</a>
+        </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tree Knowledge. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
